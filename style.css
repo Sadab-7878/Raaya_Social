@@ -1,0 +1,162 @@
+:root {
+  --primary-color: #A554E6;
+  --secondary-color: #F5F5F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo {
+  width: 89.55px;
+  height: 68px;
+}
+
+ul li img {
+  width: 25px;
+}
+
+ul li:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#nav-button-1 {
+  border: 1px solid #d0d5dd;
+  width: 104px;
+  height: 45px;
+  border-radius: 24px;
+  background-color: white;
+  font-family: "Nunito", serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#nav-button-2 {
+  border: 1px solid var(--primary-color);
+  width: 161px;
+  height: 45px;
+  border-radius: 24px;
+  background-color: white;
+  font-family: "Nunito", serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+#nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#hamburger {
+  display: none;
+}
+
+.dropdown-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: yellow;
+  margin-top: 20px;
+  background-color: var(--secondary-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+}
+
+.dropdown-menu.show {
+  display: flex; 
+}
+
+@media screen and (max-width: 600px) {
+  ul {
+    gap: 0px;
+  }
+  nav ul {
+    display: none;
+  }
+  #nav-buttons {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .dropdown-menu{
+    display: flex;
+    
+  }
+
+  .dropdown-menu.show {
+    display: none; 
+  }
+
+  
+
+
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    gap: 0px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #nav-buttons {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .dropdown-menu{
+    display: flex;
+  }
+
+  .dropdown-menu.show {
+    display: none; 
+  }
+}

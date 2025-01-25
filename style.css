@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #A554E6;
-  --secondary-color: #F5F5F5;
+  --primary-color: #a554e6;
+  --secondary-color: #f5f5f5;
 }
 
 * {
@@ -90,16 +90,15 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  background-color: yellow;
-  margin-top: 20px;
   background-color: var(--secondary-color);
+
+  margin-top: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
- 
 }
 
 .dropdown-menu.show {
-  display: flex; 
+  display: flex;
 }
 
 @media screen and (max-width: 600px) {
@@ -118,18 +117,6 @@ ul {
     align-items: center;
     cursor: pointer;
   }
-
-  .dropdown-menu{
-    display: flex;
-    
-  }
-
-  .dropdown-menu.show {
-    display: none; 
-  }
-
-  
-
 
 }
 
@@ -152,11 +139,13 @@ ul {
     cursor: pointer;
   }
 
-  .dropdown-menu{
-    display: flex;
+ 
+}
+
+
+@media screen and (min-width: 769px) {
+  .dropdown-menu {
+      display: none !important; 
   }
 
-  .dropdown-menu.show {
-    display: none; 
-  }
 }

@@ -235,13 +235,11 @@ ul {
   line-height: 30px;
 }
 
-.social-icons-atag{
+.social-icons-atag {
   display: flex;
   gap: 20px;
-  
-
 }
-.clients{
+.clients {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,21 +248,199 @@ ul {
   margin-bottom: 25px;
 }
 
-.clients-paragraph1{
+.clients-paragraph1 {
   font-family: "Poppins", serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
-
 }
 
-.clients-paragraph2{
-
+.clients-paragraph2 {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+}
 
+.gray-colors {
+  background-color: var(--secondary-color);
+}
+
+.creative-services-paragraph1 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59.52px;
+  text-align: center;
+}
+
+.creative-services-paragraph2 {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  text-align: center;
+}
+
+.creative-services-paragraph1-span {
+  color: #a655e7;
+}
+
+.what-we-provide-paragraph {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.76px;
+}
+
+.tick {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #aab3c0;
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.circle-checkbox:checked {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.circle-checkbox:checked::before {
+  content: "\2713";
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.circle-checkbox-2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #aab3c0;
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.circle-checkbox-2:checked {
+  background-color: #a554e6;
+  border-color: #a554e6;
+}
+
+.circle-checkbox-2:checked::before {
+  content: "\2713";
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.lowcost {
+  display: flex;
+  gap: 20px;
+}
+
+.lowcostp1 {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.lowcostp2 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.what-we-provide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.creative-services-box {
+  display: flex;
+}
+
+.pricing-1p1 {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+}
+
+.pricing-1p2 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.24px;
+}
+
+.pricing-1 {
+  width: 563px;
+  height: 130px;
+  border: 1px solid #d0d5dd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.most-popular-p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.most-popular {
+  background-color: #475467;
+  width: 103px;
+  height: 22px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.creative-services {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.creative-services-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1303px;
+  height: 573px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.creative-services-pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* mobile responsive start */
@@ -331,7 +507,7 @@ ul {
     grid-gap: 25px;
   }
 
-  .clients{
+  .clients {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -339,18 +515,43 @@ ul {
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
-    
   }
 
-  .clients-img{
+  .clients-img {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     margin-left: 5px;
-   
-    
-    
+  }
 
+  .creative-services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 1400px;
+    background-color: white;
+    border-radius: 16px;
+  }
+
+  .lowcost {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .lowcostp1 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .lowcostp2 {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 21px;
+    text-align: justify;
   }
 }
 
@@ -392,6 +593,31 @@ ul {
   .cards {
     margin-top: 50px;
   }
+
+  .clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .clients-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .creative-services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 1400px;
+    background-color: white;
+    border-radius: 16px;
+  }
 }
 
 /* tablet responsive end */
@@ -402,6 +628,12 @@ ul {
   .dropdown-menu {
     display: none !important;
   }
+
+  .clients-img {
+    display: flex;
+    gap: 50px;
+  }
+  
 }
 
 /* desktop responsive end */

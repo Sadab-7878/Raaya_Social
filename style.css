@@ -210,15 +210,13 @@ ul {
 }
 
 .cards-container {
-
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 30px;
-
 }
 
-.socail-icons{
+.socail-icons {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -230,21 +228,44 @@ ul {
   border-radius: 16px;
 }
 
-.social-icons-paragraph{
-
+.social-icons-paragraph {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.social-icons-atag{
+  display: flex;
+  gap: 20px;
+  
+
+}
+.clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.clients-paragraph1{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
 
 }
 
+.clients-paragraph2{
 
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 
-
-
-
-
+}
 
 /* mobile responsive start */
 
@@ -285,13 +306,13 @@ ul {
     margin-top: 50px;
   }
 
-  .cards-container{
+  .cards-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .socail-icons{
+  .socail-icons {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -302,20 +323,35 @@ ul {
     border-radius: 16px;
     justify-content: center;
     align-items: center;
-    
-
   }
-  
-  .social-icons-atag{
+
+  .social-icons-atag {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
-    
-    
+  }
+
+  .clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
     
   }
 
-  
+  .clients-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    
+   
+    
+    
+
+  }
 }
 
 /* mobile responsive end */

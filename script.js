@@ -18,6 +18,15 @@ const accor = document.querySelectorAll(".accordion-inside-2");
 plus.forEach((plus, index) => {
   plus.addEventListener("click", () => {
     accor[index].classList.toggle("accorshow");
-    console.log(accor);
+
+    if(accor[index].classList.contains('accorshow')){
+      plus.src = 'assets/minus.png';
+    }
+    else{
+      plus.src = 'assets/plus.png';
+
+
+    }
+   
   });
 });

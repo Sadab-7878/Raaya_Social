@@ -11,3 +11,13 @@ hamburger.addEventListener("click", () => {
     hamburger.src = "assets/hamburger.png";
   }
 });
+
+const plus = document.querySelectorAll(".plus");
+const accor = document.querySelectorAll(".accordion-inside-2");
+
+plus.forEach((plus, index) => {
+  plus.addEventListener("click", () => {
+    accor[index].classList.toggle("accorshow");
+    console.log(accor);
+  });
+});

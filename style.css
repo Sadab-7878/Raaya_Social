@@ -1030,6 +1030,10 @@ ul {
   width: 800px;
   height: 50px;
   background-color: white;
+  border-radius: 8px;
+
+
+  border-radius: 8px;
 }
 
 .accordion-deep-inside-1{
@@ -1044,6 +1048,9 @@ ul {
   height: 100px;
   background-color: white;
   display: none;
+
+  border-radius: 8px;
+  margin-top: -20px;
  
 
 }

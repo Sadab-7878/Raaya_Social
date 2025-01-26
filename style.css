@@ -1181,11 +1181,19 @@ ul {
 
 footer{
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+
 }
 
 .footerupper{
   display: flex;
   justify-content: space-around;
+  gap: 100px;
 }
 
 .foto{
@@ -1193,6 +1201,16 @@ footer{
   flex-direction: column;
   gap: 20px;
 }
+
+.copyright{
+
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
 
 /* mobile responsive start */
 
@@ -1434,6 +1452,16 @@ footer{
   .accorshow {
     display: block;
   }
+
+  .footerupper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px;
+  }
+  .bigline{
+    width: 300px;
+  }
 }
 
 /* mobile responsive end */
@@ -1600,6 +1628,19 @@ footer{
 
   .accorshow {
     display: block;
+  }
+
+  .footerupper{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bigline{
+    width: 600px;
   }
 }
 

@@ -443,8 +443,7 @@ ul {
   gap: 20px;
 }
 
-.creative-services-pricing-button{
- 
+.creative-services-pricing-button {
   width: 156px;
   height: 45px;
   border-radius: 24px;
@@ -455,13 +454,9 @@ ul {
   font-size: 16px;
   color: white;
   cursor: pointer;
-
- 
-  
-
 }
 
-.raw-video{
+.raw-video {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -469,7 +464,7 @@ ul {
   margin-top: 50px;
 }
 
-.raw-video-title{
+.raw-video-title {
   font-family: "Raleway", serif;
   font-weight: 700;
   font-size: 48px;
@@ -477,93 +472,185 @@ ul {
   text-align: center;
 }
 
-.raw-video-title-span{
-  color: #A554E6;
+.raw-video-title-span {
+  color: #a554e6;
 }
 
-.raw-video-white-box-1p{
-
+.raw-video-white-box-1p {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 32.8px;
 }
 
-.raw-video-white-box-flex-1{
+.raw-video-white-box-flex-1 {
   display: flex;
   gap: 20px;
 }
 
-.raw-video-white-box-last-p{
-
+.raw-video-white-box-last-p {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
-.raw-video-white-box-1{
+.raw-video-white-box-1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 382px;
   height: 467px;
   background-color: white;
- justify-content: center;
+  justify-content: center;
   align-items: center;
   border-radius: 12px;
 }
 
-.raw-video-white-box{
+.raw-video-white-box {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.raw-video-reels-p1{
-
-
+.raw-video-reels-p1 {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 32.8px;
-
 }
 
-.raw-video-reels-p2{
-
-
+.raw-video-reels-p2 {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
 }
 
-.raw-video-reels{
-  border: 1px solid #D0D5DD;
+.raw-video-reels {
+  border: 1px solid #d0d5dd;
   width: 378px;
   height: 153px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 
   border-radius: 12px;
   padding: 20px;
-
-
 }
 
-.raw-video-reels-grid{
-
+.raw-video-reels-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  
-
 }
+
+.videos-for-business-p {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.videos-for-business-span {
+  color: #a655e7;
+}
+
+.videos-for-business-1 {
+  display: flex;
+}
+
+.vb-for-photos {
+  display: flex;
+  gap: 20px;
+}
+
+.vb-for-photos-1 {
+  width: 279px;
+  height: 326.43px;
+  background-image: url("assets/vb1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 19.43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vb-for-photos-1 img {
+  cursor: pointer;
+}
+
+.vb-for-photos-2 {
+  width: 279px;
+  height: 326.43px;
+  background-image: url("assets/vb2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 19.43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vb-for-photos-2 img {
+  cursor: pointer;
+}
+
+.vb-for-photos-3 {
+  width: 279px;
+  height: 326.43px;
+  background-image: url("assets/vb3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 19.43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vb-for-photos-3 img {
+  cursor: pointer;
+}
+
+.vb-for-photos-4 {
+  width: 279px;
+  height: 326.43px;
+  background-image: url("assets/vb4.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 19.43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vb-for-photos-4 img {
+  cursor: pointer;
+}
+
+.videos-for-business-2 {
+  display: flex;
+  align-items: center;
+}
+
+.vb-for-button {
+  width: 48px;
+  height: 48px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.vb-for-button-alignment {
+  margin-left: -1.5%;
+}
+
 /* mobile responsive start */
 
 @media screen and (max-width: 600px) {
@@ -659,14 +746,14 @@ ul {
     display: flex;
     gap: 20px;
   }
-  
+
   .lowcostp1 {
     font-family: "Poppins", serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
   }
-  
+
   .lowcostp2 {
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -691,7 +778,7 @@ ul {
     font-size: 14px;
     line-height: 44px;
   }
-  
+
   .pricing-1p2 {
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -699,26 +786,45 @@ ul {
     line-height: 26.24px;
   }
 
-  .raw-video-white-box{
+  .raw-video-white-box {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
   }
 
-  .raw-video-white-box-1{
+  .raw-video-white-box-1 {
     width: 360px;
   }
 
-  .raw-video-reels-grid{
-
+  .raw-video-reels-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
-    
-  
   }
-  
+
+
+  .videos-for-business {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .vb-for-photos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+  }
+
+  .videos-for-business-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* mobile responsive end */
@@ -784,43 +890,56 @@ ul {
     background-color: white;
     border-radius: 16px;
   }
- .raw-video-white-box{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-left: 10px
-  
- }
+  .raw-video-white-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10px;
+  }
 
- .raw-video-white-box-1{
-  width: 360px;
-  
- }
+  .raw-video-white-box-1 {
+    width: 360px;
+  }
 
- .raw-video-reels-grid{
+  .raw-video-reels-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  
+  .raw-video-reels {
+    border: 1px solid #d0d5dd;
+    width: 365px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    border-radius: 12px;
+    padding: 10px;
+  }
+
+  .videos-for-business {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .vb-for-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+
+  .videos-for-business-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
 }
-
-.raw-video-reels{
-  border: 1px solid #D0D5DD;
-  width: 365px;
-  height: 153px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-
-  border-radius: 12px;
-  padding: 10px;
-
-
-}
-}
-
 
 /* tablet responsive end */
 
@@ -835,7 +954,15 @@ ul {
     display: flex;
     gap: 50px;
   }
-  
+
+  .videos-for-business {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    margin-left: 10%;
+    margin-top: 50px;
+  }
 }
 
 /* desktop responsive end */
